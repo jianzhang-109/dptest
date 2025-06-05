@@ -91,8 +91,8 @@ function sendMessage() {
         loadingElement.style.display = 'block';
     }
 
-    const apiKey = 'sk-537f02f5722f407ba15c7284eaa0ff22';
-    const endpoint = 'https://api.deepseek.com/chat/completions';
+    const apiKey = 'sk-njqvqznfbsoteqyidcmazcvcubteklxbgvjygskwwoeuhpou';
+    const endpoint = 'https://api.siliconflow.cn/v1';
 
     const payload = {
         model: "deepseek-chat",
